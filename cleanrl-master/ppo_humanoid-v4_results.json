@@ -1,0 +1,52 @@
+[
+    {
+        "iteration": 0,
+        "total_reward": 297.11191496272323,
+        "max_reward": 244.45974731445312
+    },
+    {
+        "iteration": 1,
+        "total_reward": 303.67867708999717,
+        "max_reward": 244.45974731445312
+    },
+    {
+        "iteration": 2,
+        "total_reward": 298.6249056680186,
+        "max_reward": 244.45974731445312
+    },
+    {
+        "iteration": 3,
+        "total_reward": 291.945050111991,
+        "max_reward": 248.25198364257812
+    },
+    {
+        "iteration": 4,
+        "total_reward": 283.57002276853365,
+        "max_reward": 252.09523010253906
+    },
+    {
+        "iteration": 5,
+        "total_reward": 276.2842302793664,
+        "max_reward": 252.09523010253906
+    },
+    {
+        "iteration": 6,
+        "total_reward": 270.02264740438727,
+        "max_reward": 266.44061279296875
+    },
+    {
+        "iteration": 7,
+        "total_reward": 264.41318031455137,
+        "max_reward": 278.5636901855469
+    },
+    {
+        "iteration": 8,
+        "total_reward": 257.55130808638444,
+        "max_reward": 278.5636901855469
+    },
+    {
+        "iteration": 9,
+        "total_reward": 249.64180658105067,
+        "max_reward": 392.8756103515625
+    }
+]

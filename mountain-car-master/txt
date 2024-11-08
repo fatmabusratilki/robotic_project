@@ -1,0 +1,22 @@
+Grafik ile Görselleştirme: Ödüllerin değişimini görmek için score_list verisi üzerinden bir grafik çizerek maksimum ödülün nerede alındığını görselleştirebilirsiniz.
+
+import matplotlib.pyplot as plt
+
+# score_list verisi üzerinden grafiği çiz
+plt.plot(results["score_list"], label="Episode Score")
+plt.axhline(y=max_reward, color='r', linestyle='--', label="Max Reward")
+plt.xlabel("Episode")
+plt.ylabel("Reward")
+plt.legend()
+plt.show()
+
+
+Kodda eğitim sonuçları DDPG.json dosyasına output sözlüğü üzerinden kaydediliyor. JSON dosyasına kaydedilen veriler şunlardır:
+
+score_list: Bu liste, her bölüm sonunda elde edilen toplam ödüllerin değerini içerir. Yani, her bölümdeki toplam ödüllerin bir listesidir. Bu listeyi kullanarak bölüm bazında performansı analiz edebilir ve eğitimin nasıl ilerlediğini görebilirsiniz.
+
+rolling_score_list: Bu liste, her bölümdeki hareketli ortalama (rolling average) skoru içerir. Hareketli ortalama, win parametresi kullanılarak son win bölümdeki ortalama skorun hesabıdır. Bu, ortalama performansın zaman içinde nasıl değiştiğini anlamak için faydalıdır.
+
+max_score: Bu değer, eğitim boyunca elde edilen en yüksek (maksimum) skoru içerir. Yani, score_list içerisindeki en büyük değerdir. Eğitim süresince alınan en iyi ödülü yansıtır.
+
+max_rolling_score: Bu değer, eğitim süresince hesaplanan hareketli ortalama değerleri arasında alınan en yüksek (maksimum) hareketli ortalama skorudur. Yani, rolling_score_list içerisindeki en büyük değerdir. Eğitim sırasında en yüksek ortalama performansın hangi düzeyde olduğunu anlamak için kullanılır.
