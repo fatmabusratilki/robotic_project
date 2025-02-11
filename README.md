@@ -24,4 +24,5 @@ Daha fazla detay için ilgili algoritmaların web sitelerini inceleyebilirsiniz.
 Daha detaylı bilgi için yukarıdaki bağlantıları inceleyebilirsiniz.
 
 ## Referanslar 
+Kullanılan kodlar Github'da daha önce yapılan projelerdir. Bir kodun linki maalesef bulunamadı.
 - https://github.com/vwxyzjn/cleanrl.git
