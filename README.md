@@ -22,3 +22,6 @@ Daha fazla detay için ilgili algoritmaların web sitelerini inceleyebilirsiniz.
 - [**Mountain Car Continuous (OpenAI Gym):**](https://gymnasium.farama.org/environments/classic_control/mountain_car_continuous/) Arabanın tepeyi aşmasını sağlamaya dayalı sürekli bir kontrol problemidir.
 
 Daha detaylı bilgi için yukarıdaki bağlantıları inceleyebilirsiniz.
+
+## Referanslar 
+- https://github.com/vwxyzjn/cleanrl.git
